@@ -1,0 +1,23 @@
+{
+  "name": "hapi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "--",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphiql": "^0.11.11",
+    "graphql": "^0.13.2",
+    "hapi": "^17.5.1",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
